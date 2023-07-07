@@ -1,4 +1,4 @@
-
+* {
   outline: solid red 1px;
 }
 body {
@@ -34,7 +34,7 @@ body {
   height: 200px;
   flex-direction: column;
   flex-shrink: 0;
-  margin:70px;
+  margin: 70px;
 }
 p {
   color: #f9faf8;
@@ -58,4 +58,12 @@ button {
 img {
   width: 500px;
   height: 200px;
+}
+.information {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 30px;
+  color: #1f2937;
 }
