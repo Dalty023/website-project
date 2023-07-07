@@ -1,5 +1,5 @@
 * {
-  outline: solid red 1px;
+  outl//ine: solid red 1px;
 }
 body {
   margin: 0;
@@ -56,8 +56,8 @@ button {
   border-radius: 20px;
 }
 img {
-  width: 500px;
   height: 200px;
+  padding: 0;
 }
 .information {
   display: flex;
@@ -66,4 +66,24 @@ img {
   font-weight: bolder;
   padding: 30px;
   color: #1f2937;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 0;
+}
+.image {
+  max-width: ;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 8px;
 }
